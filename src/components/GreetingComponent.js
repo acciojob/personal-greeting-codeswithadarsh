@@ -17,7 +17,7 @@ const GreetingComponent = () => {
         value={name}
         onChange={handleNameChange}
       />
-      <p>Hello, {name}!</p>
+      <p>Hello {name}!</p>
     </div>
   );
 };
